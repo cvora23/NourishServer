@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/TestProject.dir/main.cpp.o CMakeFiles/TestProject.dir/Server.cpp.o CMakeFiles/TestProject.dir/Client.cpp.o CMakeFiles/TestProject.dir/MyThread.cpp.o  -o TestProject 
