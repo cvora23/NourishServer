@@ -1,0 +1,39 @@
+### Project Title ###
+
+NourishServer
+
+### Prerequisites ###
+
+1: pthreads library
+2: std c++ library
+
+### Installing ###
+
+1: Unzip the file called NourishServer.zip
+2: After unzipping the file, README will be present in NourishServer/doc and NourishServer executable wil be present in NourishServer/app
+3: Run the server using
+  # cd NourishServerProject/app/server
+  # ./NourishServer <port_no>  [Default port is 12345, if no port_no argument given to executable.]
+  Nourish Server will be running as a pub/sub server.
+4: Run the test client using
+   # cd NourishServerProject/app/client
+   # ./NourishClient [Port used by Nourish Client is 12345 to connect to NourishServer - "hardcoded"]
+  Nourish Client will be running as a pub/sub server.
+
+##### Code Structure ###
+
+1: Server/Client/MyThread code to handle multiple client connections, sending/receiving Nourish Protocol Messages.
+2: PubSubSystem/PubSubChannel to handle the publish/subscribe/unsubscribe messages from clients.
+3: ProtocolMessage to handle serialization/deserialization of protocol messages.
+
+##### Assumptions ###
+
+1: Endianess is the same on both the sender and receiver.
+2: You have control of the protocol on both sides
+
+##### Future Improvements #####
+
+1: Can use Google Protobufs to avoid writing serialization/deserialization/endianness code for all protocol messages
+2: Kafka to use distributed highly available queues
+3: Cleanup
+4: Mongoose MQQT Broker and writing your own MQQT Client. Paho Eclipse
