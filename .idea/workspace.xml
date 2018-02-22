@@ -252,7 +252,7 @@
       <workItem from="1517249221611" duration="7593000" />
       <workItem from="1518391745860" duration="5000" />
       <workItem from="1518729308100" duration="1087000" />
-      <workItem from="1519078878962" duration="8534000" />
+      <workItem from="1519078878962" duration="8736000" />
     </task>
     <task id="LOCAL-00001" summary="Nourish Server PubSub">
       <created>1519337242952</created>
@@ -265,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109701000" />
+    <option name="totallyTimeSpent" value="109903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1843" height="1057" extended-state="0" />
